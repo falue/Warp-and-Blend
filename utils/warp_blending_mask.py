@@ -73,4 +73,4 @@ for screen_idx in warp_coords.keys():
 	cv2.imshow("warped_blend_img",warped_blend_img)
 	cv2.imwrite("blend_"+str(screen_idx)+".png", warped_blend_img*255)
 
-print "FINISHED"
+print("FINISHED")
